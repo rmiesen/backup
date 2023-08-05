@@ -1,5 +1,5 @@
-require "backup/config/dsl"
-require "backup/config/helpers"
+require_relative "config/dsl"
+require_relative "config/helpers"
 
 module Backup
   module Config

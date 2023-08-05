@@ -1,7 +1,7 @@
-require "backup/logger/console"
-require "backup/logger/logfile"
-require "backup/logger/syslog"
-require "backup/logger/fog_adapter"
+require_relative "logger/console"
+require_relative "logger/logfile"
+require_relative "logger/syslog"
+require_relative "logger/fog_adapter"
 
 module Backup
   class Logger
